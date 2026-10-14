@@ -24,7 +24,7 @@ It is a software building-block library, not a safety certification or a substit
 
 This repository is deliberately standalone. It contains no private product source, production networking or backend implementation, credentials, operational datasets, or deployment configuration.
 
-The code is designed to be useful on its own and does not document any private system.
+The code is designed to be useful on its own and does not document any private system. The public security assumptions and review boundaries are documented in [docs/THREAT_MODEL.md](docs/THREAT_MODEL.md).
 
 ## Example
 
@@ -50,7 +50,7 @@ val safeCopy = CopyWithExclusions.copy(
 
 ## Maintenance
 
-Changes are developed through tracked issues and pull requests. CI runs the test suite for every pull request. Security reports should follow [SECURITY.md](SECURITY.md), while normal changes should follow [CONTRIBUTING.md](CONTRIBUTING.md).
+Changes are developed through tracked issues and pull requests. CI runs the test suite for every pull request and branch push. Security reports should follow [SECURITY.md](SECURITY.md), while normal changes should follow [CONTRIBUTING.md](CONTRIBUTING.md).
 
 The public API is intentionally narrow: additions should remain generic, deterministic, testable and independent from proprietary systems.
 
