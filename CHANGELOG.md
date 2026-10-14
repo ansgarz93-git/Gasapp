@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.1 - 2026-10-14
 
 - Add deterministic due-status classification for recurring inspections.
 - Add configurable warning windows for upcoming inspection deadlines.
