@@ -24,7 +24,7 @@ It is a software building-block library, not a safety certification or a substit
 
 This repository is deliberately standalone. It contains no private product source, production networking or backend implementation, credentials, operational datasets, or deployment configuration.
 
-The code is designed to be useful on its own and does not document any private system. The public security assumptions and review boundaries are documented in [docs/THREAT_MODEL.md](docs/THREAT_MODEL.md).
+The code is designed to be useful on its own and does not document any private system. The public security assumptions and review boundaries are documented in [docs/THREAT_MODEL.md](docs/THREAT_MODEL.md), and build/dependency trust is documented in [docs/SUPPLY_CHAIN.md](docs/SUPPLY_CHAIN.md).
 
 ## Example
 
